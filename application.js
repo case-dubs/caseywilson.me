@@ -1,51 +1,64 @@
 $(document).ready(function() {
 
-var skillNormalize = function(){
+	$('#landingFeatureSection').delay(500).fadeIn(1000);
+
+	$('.imageHolder').on('mouseenter', function(){
+		$('#serious').hide();
+		$('#silly').show();
+	});
+
+	$('.imageHolder').on('mouseleave', function(){
+		$('#silly').hide();
+		$('#serious').fadeIn();
+	})
+
+
+	var skillNormalize = function(){
 		$('.blurbs').hide();
 		$('.skillTitles').hide();
 		$('.skillImgs').hide();
 		$('#introBlurb').fadeIn();
-}
+	};
 
 	$('#skillsTop').on('click', function(){
 		skillNormalize();
 	});
 
 
-
 	$('#BinC').on('click', function(){
-		$('#introBlurb').hide();
-		$('#brandingTitle').fadeIn();
-		$('#brandingBlurb').fadeIn();
-		$('#brandingImg').fadeIn();
-	});
-
-	$('#BinC').off('click', function(){
 		skillNormalize();
+		$('#introBlurb').hide();
+		$('#chinaTitle').fadeIn();
+		$('#chinaBlurb').fadeIn();
+		$('#chinaImg').fadeIn();
 	});
 
 	$('#branding').on('click', function(){
+		skillNormalize();
 		$('#introBlurb').hide();
 		$('#brandingTitle').fadeIn();
 		$('#brandingBlurb').fadeIn();
 		$('#brandingImg').fadeIn();
 	});
-//only correct one
+
 	$('#BD').on('click', function(){
+		skillNormalize();
 		$('#introBlurb').hide();
-		$('#brandingTitle').fadeIn();
-		$('#brandingBlurb').fadeIn();
-		$('#brandingImg').fadeIn();
+		$('#BDTitle').fadeIn();
+		$('#BDBlurb').fadeIn();
+		$('#BDImg').fadeIn();
 	});
 
 	$('#product').on('click', function(){
+		skillNormalize();
 		$('#introBlurb').hide();
-		$('#brandingTitle').fadeIn();
-		$('#brandingBlurb').fadeIn();
-		$('#brandingImg').fadeIn();
+		$('#productTitle').fadeIn();
+		$('#productBlurb').fadeIn();
+		$('#productImg').fadeIn();
 	});
 
-	$('#OrgDev').on('click', function(){
+	/*$('#OrgDev').on('click', function(){
+		skillNormalize();
 		$('#introBlurb').hide();
 		$('#brandingTitle').fadeIn();
 		$('#brandingBlurb').fadeIn();
@@ -53,6 +66,7 @@ var skillNormalize = function(){
 	});
 	
 	$('#investment').on('click', function(){
+		skillNormalize();
 		$('#introBlurb').hide();
 		$('#brandingTitle').fadeIn();
 		$('#brandingBlurb').fadeIn();
@@ -60,6 +74,7 @@ var skillNormalize = function(){
 	});
 
 	$('#mgmt').on('click', function(){
+		skillNormalize();
 		$('#introBlurb').hide();
 		$('#brandingTitle').fadeIn();
 		$('#brandingBlurb').fadeIn();
@@ -67,11 +82,12 @@ var skillNormalize = function(){
 	});
 
 	$('#community').on('click', function(){
+		skillNormalize();
 		$('#introBlurb').hide();
 		$('#brandingTitle').fadeIn();
 		$('#brandingBlurb').fadeIn();
 		$('#brandingImg').fadeIn();
-	});
+	});*/
 
 
 });
