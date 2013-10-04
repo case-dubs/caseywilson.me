@@ -295,6 +295,7 @@ header ul li a:hover {
 	display: block;
 	position: relative;
 	margin-left: -50px;
+	width: 950px;
 }
 
 .videoHolder{
