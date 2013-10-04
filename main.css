@@ -1,0 +1,263 @@
+/*colors: 
+light brown: #F3F0F0;
+mid brown: #e0e0e0;
+dark brown: #504a46;
+orange: #EC6F66;
+
+*/
+
+body {
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 16px;
+	line-height: 150%;
+	color: #504a46;
+}
+
+h1 {
+	font-size: 52px;
+	/*font-weight: bold;*/
+	letter-spacing: 1.5px;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: bold;
+	letter-spacing: 1.25px;
+}
+
+h3 {
+	font-size: 18px;
+	letter-spacing: 1.25px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*@media (max-width: 500px){
+	header ul li {
+		display: block;
+		text-align: left;
+	}
+	header ul {
+		display: block;
+	}
+
+}*/
+
+header {
+	position: fixed;
+	z-index: 1;
+	display: block;
+	border-bottom: 1px solid #e0e0e0;
+	padding: 20px 80px 0 80px;
+	background: #F3F0F0;
+	width: 100%;
+	min-width: 550px;
+}
+
+header h3 a {
+	color: #504a46;
+	font-weight: 500;
+	display: inline;
+	float: left;
+	/*position: absolute;*/
+	text-align: left;
+	margin-top: -20px;
+}
+
+header h3 a:hover{
+	color: #EC6F66;
+}
+
+header ul{
+	display: inline;
+	margin: -20px 140px 15px 80px;
+	float: right;
+	/*text-align: right;*/
+}
+
+header ul li {
+	display: inline;
+	padding: 0 15px;
+}
+
+header ul li a {
+	display: inline;
+	text-decoration: none;
+	color: #504a46
+}
+
+header ul li a:hover {
+	color: #EC6F66;
+}
+
+.bodyDivs {
+	padding: 20px 80px;
+	display: block;
+	position: relative;
+}
+
+#landingSection {
+	background: #F3F0F0;
+}
+
+#landingFeatureSection {
+	position: relative;
+	max-width: 700px;
+	margin: 150px auto;
+	min-width: 700px;
+	display: inline-block;
+}
+
+.imageHolder {
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+
+.introPhoto img{
+	width: 80%;
+	float: left;
+}
+
+#silly {
+	display: none;
+}
+
+#helloMessage {
+	position: relative;
+	float: right;
+	display: inline-block;
+	text-align: left;
+}
+
+#helloMessage h1 {
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+#helloMessage h2 {
+	font-weight: 500;
+}
+
+#skillsSection{
+	background-color: #EC6F66;
+	color: white;
+}
+
+#introArrow{
+	margin: -20px auto 0 auto;
+}
+
+#skillsSection a{
+	/*color: white;*/
+	font-weight: bold;
+	color: #504a46;
+}
+
+.skillsIntro{
+	margin: 0 auto;
+	text-align: left;
+	max-width: 900px;
+}
+
+.blurbs {
+	display: none;
+}
+
+.skillImgs {
+	display: none;
+	height: 350px;
+	float: center;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.skillImgs img {
+	height: 350px;
+}
+
+#skillsMosaic{
+	text-align: center;
+	float: center;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.skillTitles {
+	display: none;
+}
+
+.skillTile {
+	padding: 20px;
+}
+
+#featuresSection{
+	background-color: #F3F0F0;
+	border-bottom: #504a46 solid 1px; 
+	height: 800px;
+}
+
+#featuresContainer {
+	max-width: 1200px;
+	position: relative;
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.leftBlock {
+	float: left;
+	width: 45%;
+	display: inline-block;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+}
+
+.rightBlock {
+	float: right;
+	width: 0%;
+	display: inline-block;
+	/*margin: 0 auto;*/
+	display: relative;
+	/*right: 0;*/
+}
+
+#featuresContainer .rightBlock{
+	margin-top: -250px;
+	margin-left: 20px;
+	margin-right: -20px;
+}
+
+.rightBlock img {
+	width: 425px;
+	right: 0;
+}
+
+#media {
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.videoHolder{
+	display: inline-block;
+}
+
+.videoHolder #cnn{
+	float: left;
+	width: 45%;
+	padding-left: 50px;
+}
+
+#phoenix {
+	float: right;
+	width: 0%;
+	padding-left: 50px;
+	margin-right: -50px;
+
+}
