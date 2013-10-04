@@ -18,11 +18,12 @@ h1 {
 	font-size: 52px;
 	/*font-weight: bold;*/
 	letter-spacing: 1.5px;
+	line-height: 1.5;
 }
 
 h2 {
 	font-size: 32px;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	letter-spacing: 1.25px;
 }
 
@@ -202,7 +203,6 @@ header ul li a:hover {
 }
 
 #featuresContainer {
-	max-width: 1200px;
 	position: relative;
 	width: 900px;
 	margin: 0 auto;
@@ -221,7 +221,7 @@ header ul li a:hover {
 
 .rightBlock {
 	float: right;
-	width: 0%;
+	width: 50%;
 	display: inline-block;
 	/*margin: 0 auto;*/
 	display: relative;
@@ -229,19 +229,30 @@ header ul li a:hover {
 }
 
 #featuresContainer .rightBlock{
-	margin-top: -250px;
-	margin-left: 20px;
-	margin-right: -20px;
+}
+
+#featuresContainer .leftBlock p a{
+	color: #EC6F66;
+	text-decoration: none;
+}
+
+#featuresContainer .rightBlock{
+	margin-top: 125px;
 }
 
 .rightBlock img {
-	width: 425px;
+	width: 350px;
 	right: 0;
 }
 
 #media {
 	margin: 0 auto;
-	margin-top: 100px;
+	top: 50px;
+	text-align: center;
+	clear: both;
+	display: block;
+	position: relative;
+	margin-left: -50px;
 }
 
 .videoHolder{
@@ -250,14 +261,95 @@ header ul li a:hover {
 
 .videoHolder #cnn{
 	float: left;
-	width: 45%;
-	padding-left: 50px;
+	width: 50%;
+	/*margin-right: 55px;*/
 }
 
 #phoenix {
 	float: right;
-	width: 0%;
-	padding-left: 50px;
-	margin-right: -50px;
+	width: 50%;
+	/*	margin-left: 75px;
+padding-left: 50px;*/
+}
 
+#contactSection{
+	background-color: #F3F0F0;
+	height: 725px;
+}
+
+#contactContainer{
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 10px;
+	position: relative;
+	display: block;
+	margin-top: 50px;
+}
+
+
+
+input{
+	border: 0;
+	line-height: 1.5;
+}
+
+.button{
+	background-color: #EC6F66;
+	/*background-color: #e0e0e0;*/
+	height: 35px;
+	width: 100px;
+	margin-right: 20px;
+	border-radius: 10px;
+	color: white;
+}
+
+.inputField{
+	height: 30px;
+	border-radius: 5px;
+	margin: 10px 0px;
+
+}
+
+#comment {
+	height: 150px;
+	width: 385px;
+}
+
+
+
+#contactContainer .rightBlock {
+	width: 50%;
+	position: relative;
+	margin-top: 150px;
+}
+
+#contactContainer .rightBlock img {
+	width: 350px;
+	position: relative;
+}
+
+
+#footer {
+	background-color: #504a46;
+	opacity: 1;
+	height: 100px;
+	display: block;
+	bottom: 0;
+	/*margin-top: 150px;*/
+	clear: both;
+}
+
+#footer a {
+	text-decoration: none;
+	color: white;
+}
+
+#footer div {
+	float: center;
+	top: 50px;
+	text-align: center;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
 }
