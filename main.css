@@ -303,13 +303,13 @@ header ul li a:hover {
 
 .videoHolder #cnn{
 	float: left;
-	width: 50%;
+	width: 45%;
 	/*margin-right: 55px;*/
 }
 
 #phoenix {
 	float: right;
-	width: 50%;
+	width: 45%;
 	/*	margin-left: 75px;
 padding-left: 50px;*/
 }
