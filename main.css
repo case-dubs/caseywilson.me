@@ -215,13 +215,17 @@ header ul li a:hover {
 
 #skillsTabs{
 	width: 900px;
-	margin: 50px auto;
+	margin: -25px auto 50px auto;
 	text-align: center;
 	display: block;
 }
 
-#chinaBDBlock{
+/*#chinaBDBlock{
 	display: inline-block;
+}*/
+
+.borderedPhoto {
+	border: 8px #e0e0e0 solid;
 }
 
 .skillTitles {
@@ -238,10 +242,20 @@ header ul li a:hover {
 	width: 175px;
 }
 
+#cnwPhoto{
+	height: 280px;
+}
+
+#cpwfPhoto{
+	width: 315px;
+	height: 278px;
+}
+
 #featuresSection{
 	background-color: #F3F0F0;
 	border-bottom: #504a46 solid 1px; 
 	height: 850px;
+	min-width: 600px;
 }
 
 #featuresContainer {
