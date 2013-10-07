@@ -220,6 +220,10 @@ header ul li a:hover {
 	display: block;
 }
 
+#chinaBDBlock{
+	display: inline-block;
+}
+
 .skillTitles {
 	display: none;
 }
