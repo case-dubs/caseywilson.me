@@ -10,13 +10,14 @@ $(document).ready(function() {
 	$('.imageHolder').on('mouseleave', function(){
 		$('#silly').hide();
 		$('#serious').fadeIn();
-	});
-*/
+	});*/
+
 
 	var skillNormalize = function(){
 		$('.blurbs').hide();
 		$('.skillTitles').hide();
 		$('.skillImgs').hide();
+		$('.skillImgsShow').hide();
 		$('#introBlurb').fadeIn();
 	};
 
@@ -24,26 +25,27 @@ $(document).ready(function() {
 		skillNormalize();
 	});
 
-
-	$('#BinC').on('click', function(){
+$('#branding').on('click', function(){
 		skillNormalize();
-		$('#introBlurb').hide();
-		$('#chinaTitle').fadeIn();
-		$('#chinaBlurb').fadeIn();
-		$('#chinaImg').fadeIn();
-	});
-
-	$('#branding').on('click', function(){
-		skillNormalize();
-		$('#introBlurb').hide();
+		//$('#introBlurb').hide();
 		$('#brandingTitle').fadeIn();
 		$('#brandingBlurb').fadeIn();
 		$('#brandingImg').fadeIn();
 	});
 
+	$('#BinC').on('click', function(){
+		skillNormalize();
+		//$('#introBlurb').hide();
+		$('#chinaTitle').fadeIn();
+		$('#chinaBlurb').fadeIn();
+		$('#chinaImg').fadeIn();
+	});
+
+	
+
 	$('#BD').on('click', function(){
 		skillNormalize();
-		$('#introBlurb').hide();
+	//	$('#introBlurb').hide();
 		$('#BDTitle').fadeIn();
 		$('#BDBlurb').fadeIn();
 		$('#BDImg').fadeIn();
@@ -51,7 +53,7 @@ $(document).ready(function() {
 
 	$('#product').on('click', function(){
 		skillNormalize();
-		$('#introBlurb').hide();
+		//$('#introBlurb').hide();
 		$('#productTitle').fadeIn();
 		$('#productBlurb').fadeIn();
 		$('#productImg').fadeIn();

@@ -189,6 +189,22 @@ header ul li a:hover {
 	display: none;
 }
 
+#brandingBlock {
+	display: inline-block;
+}
+
+
+
+.skillImgsShow {
+	display: inline-block;
+	height: 350px;
+	float: center;
+	margin: 25px auto;
+	padding-left: 50px;
+	margin-top: 10px;
+	text-align: center;
+}
+
 .skillImgs {
 	display: none;
 	height: 350px;
@@ -200,6 +216,18 @@ header ul li a:hover {
 
 .skillImgs img {
 	height: 350px;
+}
+
+#brandingBlurb{
+	display: block;
+}
+
+#brandingTitle{
+	display: block;
+}
+
+#bradingImg{
+	display: inline-block;
 }
 
 /*.productThumbnails {
@@ -217,7 +245,7 @@ header ul li a:hover {
 
 #skillsTabs{
 	width: 900px;
-	margin: -25px auto 50px auto;
+	margin: -60px auto 50px auto;
 	text-align: center;
 	display: block;
 }
