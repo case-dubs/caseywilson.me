@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$('#landingFeatureSection').delay(500).fadeIn(1000);
 
-	$('.imageHolder').on('mouseenter', function(){
+	/* hover-changing photo of me commented out: $('.imageHolder').on('mouseenter', function(){
 		$('#serious').hide();
 		$('#silly').show();
 	});
@@ -10,8 +10,8 @@ $(document).ready(function() {
 	$('.imageHolder').on('mouseleave', function(){
 		$('#silly').hide();
 		$('#serious').fadeIn();
-	})
-
+	});
+*/
 
 	var skillNormalize = function(){
 		$('.blurbs').hide();
